@@ -167,6 +167,7 @@ command you need). There is a test keystore you can use in the
 .. code-block:: yaml
 
     http:
+	    connectorType: nonblocking+ssl
       ssl:
         keyStorePath: ./example.keystore
         keyStorePassword: example
